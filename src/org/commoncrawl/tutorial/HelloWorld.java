@@ -58,7 +58,7 @@ public class HelloWorld {
           throws IOException {
         CsvRecordOutput csvOutput = new CsvRecordOutput(outStream);
         csvOutput.writeString(key.toString(), "word");
-        csvOutput.writeLong(value.get(), "occurrences")
+        csvOutput.writeLong(value.get(), "occurrences");
       }
 
       public synchronized void close(Reporter reporter) throws IOException {
