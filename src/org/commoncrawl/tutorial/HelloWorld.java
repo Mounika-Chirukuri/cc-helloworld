@@ -132,5 +132,5 @@ public class HelloWorld {
 
     // Runs the job.
     JobClient.runJob(conf);
-  
+  }
 }
