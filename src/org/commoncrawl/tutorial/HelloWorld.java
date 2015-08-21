@@ -131,6 +131,6 @@ public class HelloWorld {
     conf.setJarByClass(HelloWorld.class);
 
     // Runs the job.
-    JobClient.runJob(conf)
+    JobClient.runJob(conf);
   }
 }
